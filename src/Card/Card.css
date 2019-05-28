@@ -1,0 +1,162 @@
+.card {
+  position: relative;
+  background-color: #ffffff;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.card-header-container {
+  display: flex;
+}
+
+.showPoster {
+  margin: 12px;
+}
+
+.card-title-container {
+  margin-top: 10px;
+}
+
+.event-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px #cccccc solid;
+  width: inherit;
+  height: 80px;
+}
+
+.card-event-price {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1d781d;
+}
+
+.card-title-text {
+  font-size: 22px;
+  color: #000000;
+  margin: 0;
+}
+
+.card-title-text > span {
+  font-weight: 400;
+}
+
+.learn-more {
+  color: #0068d9;
+  font-weight: 700;
+}
+
+.date-container {
+  border-right: 1px #cccccc solid;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timeslot {
+  position: relative;
+  background-color: #eeeeee;
+  height: 45px;
+  width: 100px;
+  margin: 0 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #cccccc;
+  border: 2px solid #eeeeee;
+}
+
+.timeslot:not(.soldout-true):focus {
+  border: 2px solid #b3d7ec;
+  outline: none;
+}
+
+.timeslot:not(.soldout-true):active {
+  background: #004ba0;
+  border: 2px solid #004ba0;
+  outline: none;
+  color: #ffffff;
+}
+
+.timeslot:not(.soldout-true):hover {
+  background: #004ba0;
+  border: 2px solid #004ba0;
+  outline: none;
+  color: #ffffff;
+}
+
+.timeslot:not(.soldout-true):visited {
+  /* background: #004ba0; */
+  background-color: red;
+  border: 2px solid #004ba0;
+  outline: none;
+  color: #ffffff;
+}
+
+.soldout-true > .timeslot-time {
+  text-decoration: line-through;
+  outline: none;
+}
+
+.soldout-true {
+  top: -11%;
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #ffffff;
+  color: #666666;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.timeslot-time {
+  align-self: center;
+  position: relative;
+  top: 30%;
+}
+
+.view-more {
+  display: flex;
+}
+
+.view-more-chevron {
+  margin: 0 12px 0 auto;
+  fill: #0068d9;
+}
+
+.sideways-chevron {
+  transform: rotate(-90deg);
+  margin: 15px 0 0 160px;
+}
+
+.view-more,
+.view-cal {
+  position: relative;
+  border-top: 1px #cccccc solid;
+  height: 40px;
+  font-weight: 700px;
+  color: #0068d9;
+  text-align: center;
+}
+
+.view-more-text,
+.view-cal-text {
+  position: absolute;
+  margin: 10px auto 0 auto;
+  left: 45%;
+}
