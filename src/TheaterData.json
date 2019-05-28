@@ -1,0 +1,40 @@
+{
+  "title": "The Phantom of the Opera",
+  "priceMin": 29.0,
+  "priceMax": 215.0,
+  "timeListing": [
+    {
+      "date": { "day": "Tue", "date": "Sep 22" },
+      "times": [{ "time": "7:00pm", "soldOut": "false" }]
+    },
+    {
+      "date": { "day": "Wed", "date": "Sep 23" },
+      "times": [{ "time": "8:00pm", "soldOut": "true" }]
+    },
+    {
+      "date": { "day": "Thurs", "date": "Sep 24" },
+      "times": [
+        { "time": "2:00pm", "soldOut": "false" },
+        { "time": "8:00pm", "soldOut": "false" }
+      ]
+    },
+    {
+      "date": { "day": "Fri", "date": "Sep 25" },
+      "times": [{ "time": "7:00pm", "soldOut": "false" }]
+    },
+    {
+      "date": { "day": "Sat", "date": "Sep 26" },
+      "times": [
+        { "time": "2:00pm", "soldOut": "false" },
+        { "time": "8:00pm", "soldOut": "true" }
+      ]
+    },
+    {
+      "date": { "day": "Sun", "date": "Sep 27" },
+      "times": [
+        { "time": "2:00pm", "soldOut": "false" },
+        { "time": "8:00pm", "soldOut": "false" }
+      ]
+    }
+  ]
+}
